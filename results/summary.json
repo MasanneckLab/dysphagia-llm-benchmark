@@ -1,0 +1,35 @@
+{
+  "seed": 20261006,
+  "bootstrap_replicates": 20000,
+  "CI_method": "Percentile, stratified topic-pair cluster bootstrap; retain 2 items x 4 systems per pair, 15 pairs per domain",
+  "inference_scope": "Purposive selected-content benchmark. These intervals do not establish population representativeness or model-generation variability.",
+  "friedman_chi2": 11.658461538461637,
+  "friedman_p": 0.008649580404816464,
+  "agreement_n": 333,
+  "agreement_total": 360,
+  "all_correct_items": 36,
+  "all_wrong_items": 0,
+  "none_correct_items": 15,
+  "mixed_category_items": 45,
+  "identical_category_items": 45,
+  "noncorrect_total": 129,
+  "guideline_ids_contributing": [
+    1,
+    2,
+    3,
+    5,
+    6
+  ],
+  "environment": {
+    "numpy": "2.0.2",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "statsmodels": "0.14.4",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.9.4",
+    "seaborn": "0.13.2",
+    "lxml": "6.0.2",
+    "python-docx": "1.1.0"
+  },
+  "python": "3.12.9"
+}

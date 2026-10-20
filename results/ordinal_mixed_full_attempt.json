@@ -1,0 +1,79 @@
+{
+  "formula": "rating ~ system + domain + guideline_id + question_type + (1|statement_id) + (1|item_id)",
+  "estimator": "Marginal MLE, factorized non-adaptive Gauss-Hermite quadrature, analytic gradient",
+  "n_responses": 360,
+  "n_items": 90,
+  "n_topic_pairs": 45,
+  "starts": [
+    {
+      "nll": 245.24072096843966,
+      "success": true,
+      "gradient_max": 9.416512840143554e-06
+    },
+    {
+      "nll": 245.2407209684382,
+      "success": true,
+      "gradient_max": 9.279405776769828e-06
+    },
+    {
+      "nll": 245.2407209684592,
+      "success": true,
+      "gradient_max": 1.2841112035782976e-05
+    }
+  ],
+  "quadrature": [
+    {
+      "nodes": 31,
+      "nll": 245.33245692760045,
+      "success": true,
+      "gradient_max": 9.629046063164282e-06,
+      "max_fixed_parameter_shift": 0.19679115420115395
+    },
+    {
+      "nodes": 41,
+      "nll": 245.31874405203968,
+      "success": true,
+      "gradient_max": 8.555129748223992e-06,
+      "max_fixed_parameter_shift": 0.10299154877210509
+    },
+    {
+      "nodes": 61,
+      "nll": 245.3167970617799,
+      "success": true,
+      "gradient_max": 1.3405601473476247e-05,
+      "max_fixed_parameter_shift": 0.02622565049355896
+    }
+  ],
+  "final_nodes": 61,
+  "nll": 245.3167970617799,
+  "converged": true,
+  "gradient_max": 1.3405601473476247e-05,
+  "hessian_eigenvalues": [
+    1.0388928345627047e-06,
+    8.512073509250576e-06,
+    0.28058155761313014,
+    0.6992461737570255,
+    0.9924133756835436,
+    1.9958081032366626,
+    2.4047533734449353,
+    3.2987311737668854,
+    8.244373157087669,
+    14.205159181677406,
+    15.77316567990492,
+    16.934275848323292,
+    42.328271105848046,
+    163.5018566900868
+  ],
+  "hessian_condition": 157380868.6041316,
+  "sd_topic_pair": 2.041570629472615,
+  "sd_item": 0.00033546262790251185,
+  "thresholds": [
+    -4.232046854572989,
+    -1.4958966445579045
+  ],
+  "boundary": true,
+  "release_gate_passed": false,
+  "coefficient_at_bound": [
+    "guideline:5"
+  ]
+}

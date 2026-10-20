@@ -1,0 +1,5 @@
+system,all_responses,safety_explicit_yes,safety_explicit_no,safety_blank,noncorrect_responses,noncorrect_safety_recorded,noncorrect_safety_missing
+GPT-5.2,90,0,0,90,24,0,24
+Open Evidence,90,0,0,90,31,0,31
+Sonar,90,0,1,89,39,1,38
+Sonar-Reasoning-Pro,90,0,0,90,35,0,35

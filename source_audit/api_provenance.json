@@ -1,0 +1,49 @@
+{
+  "gpt_model_requested": [
+    "gpt-5.2"
+  ],
+  "gpt_model_returned": [
+    "gpt-5.2-2025-12-11"
+  ],
+  "gpt_request_parameters": {
+    "model": "gpt-5.2",
+    "temperature": 0.2,
+    "max_completion_tokens": 3000
+  },
+  "gpt_endpoint": "/v1/chat/completions",
+  "gpt_batch_created_at_utc": "2026-03-03T03:40:41.188435+00:00",
+  "gpt_output_finish_reasons": {
+    "stop": 90
+  },
+  "gpt_rated_answer_mismatch_item_ids": [],
+  "gpt_request_count": 90,
+  "gpt_output_count": 90,
+  "gpt_tools_in_request": false,
+  "gpt_message_roles": [
+    [
+      "system",
+      "user"
+    ]
+  ],
+  "gpt_system_prompt_file": "data/prompt.md",
+  "gpt_system_prompt_sha256": "a50a49660c7a3b9e2bf2d07393d54cd4c9de69a59a01486da297a1e79d0efecd",
+  "perplexity_configuration_evidence": "new_dysphagia/perplexity_dysphagia_export.ipynb; configured, not raw response metadata",
+  "perplexity_configuration": {
+    "models": [
+      "sonar",
+      "sonar-reasoning-pro"
+    ],
+    "temperature": 0.2,
+    "max_tokens": 3000,
+    "iterations": 1,
+    "whitelist": null
+  },
+  "open_evidence_configuration": "Web interface confirmed by author on 2026-10-06. Account tier and exact February backend build not recorded; do not substitute a later named model.",
+  "source_support_consensus": "Author confirmed on 2026-10-06: CH recorded consensus with BL. Current master supplied 2026-10-07 resolves legacy BL ni/missing entries. Master values are retained, not imputed.",
+  "analysis_source": {
+    "workbook": "20260915_Supplementary_Material_3.xlsx",
+    "sha256": "971d7efb534eb9abbfcdea2e3e05387ccce39f7f1e3286887e939ee7183cff71",
+    "received": "2026-10-07"
+  },
+  "retry_history": "Earlier GPT batch failed all 90 requests on an invalid max_tokens parameter; corrected batch used max_completion_tokens. Failed requests yielded no evaluated answers. Full Perplexity attempt/retry log not saved."
+}

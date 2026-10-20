@@ -1,0 +1,6 @@
+kind,system,item_id,source_excel_row,note
+reference_split_restored_from_template,Sonar,2,7.0,D7/D8 reference fragments join exactly to template and both complete OpenEvidence/GPT references. Restored only in derived data; raw fragments retained.
+reference_split_restored_from_template,Sonar-Reasoning-Pro,2,8.0,D7/D8 reference fragments join exactly to template and both complete OpenEvidence/GPT references. Restored only in derived data; raw fragments retained.
+reference_trailing_character_restored_from_template,Sonar,45,,Removed a stray terminal a only in the derived reference; original template and the other three systems agree.
+documented_rating_typo,Sonar,51,,corect -> Correct; both independent raters already Correct.
+inclusive_high_evidence_definition,Open Evidence,38,,"Guideline=yes, raw high-level=no; inclusive endpoint is OR, not a source-cell correction."

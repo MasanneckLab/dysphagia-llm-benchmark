@@ -1,0 +1,12 @@
+guideline_id,domain,n_items,n_topic_pairs
+1,Clinical Assessment,14,7
+1,Instrumental Assessment,2,1
+1,Therapy & Rehabilitation,12,6
+2,Clinical Assessment,8,4
+2,Instrumental Assessment,6,3
+2,Therapy & Rehabilitation,12,6
+3,Clinical Assessment,8,4
+3,Instrumental Assessment,14,7
+3,Therapy & Rehabilitation,6,3
+5,Instrumental Assessment,2,1
+6,Instrumental Assessment,6,3

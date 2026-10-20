@@ -1,0 +1,83 @@
+{
+  "formula": "rating ~ system + domain + guideline_id + question_type + (1|statement_id)",
+  "n_responses": 352,
+  "n_items": 88,
+  "n_topic_pairs": 44,
+  "excluded_separated_guideline_ids": [
+    5
+  ],
+  "reason": "Full-model item variance near zero at the numerical bound; guideline 5 contains eight Correct responses and has no finite fixed-effect MLE. Full attempt preserved separately.",
+  "quadrature": [
+    {
+      "nodes": 61,
+      "nll": 245.31678828207518,
+      "success": true,
+      "gradient_max": 3.15186170080084e-06,
+      "max_parameter_shift": 0.07677128878696776
+    },
+    {
+      "nodes": 81,
+      "nll": 245.31696152506677,
+      "success": true,
+      "gradient_max": 6.968308739785378e-05,
+      "max_parameter_shift": 0.0010898209537436587
+    },
+    {
+      "nodes": 121,
+      "nll": 245.31696112689613,
+      "success": true,
+      "gradient_max": 1.263611452739788e-05,
+      "max_parameter_shift": 1.2919914868403382e-05
+    }
+  ],
+  "starts": [
+    {
+      "nll": 245.33244803929728,
+      "success": true,
+      "gradient_max": 1.3143273950966261e-05
+    },
+    {
+      "nll": 245.3324480393039,
+      "success": true,
+      "gradient_max": 1.61864537995271e-05
+    },
+    {
+      "nll": 245.3324480393117,
+      "success": true,
+      "gradient_max": 6.9094364314459256e-06
+    }
+  ],
+  "estimator": "Marginal MLE; non-adaptive Gauss-Hermite integration; analytic gradient",
+  "final_nodes": 121,
+  "nll": 245.31696112689613,
+  "converged": true,
+  "gradient_max": 1.263611452739788e-05,
+  "hessian_eigenvalues": [
+    0.2802072710951921,
+    0.6983774811729564,
+    0.9912169253507748,
+    1.9955055682474174,
+    2.404701967888049,
+    3.2968494351892423,
+    8.245162585459246,
+    14.20517844836564,
+    15.773625309242382,
+    16.93605995557675,
+    42.364076277418015,
+    163.44085193701824
+  ],
+  "hessian_condition": 583.2855489374283,
+  "sd_topic_pair": 2.041385377799271,
+  "sd_item": 0,
+  "thresholds": [
+    -4.231891767810008,
+    -1.495763129628414
+  ],
+  "release_gate_passed": true,
+  "without_guideline": {
+    "gate_passed": true,
+    "n_responses": 360,
+    "nll": 246.84883372353536,
+    "gradient_max": 4.3325267418126145e-06
+  }
+}

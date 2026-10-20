@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+private_sources/
+*.log
+*.ipynb_checkpoints/
+figures/*.png
+figures/*.tiff
+results/*.npz

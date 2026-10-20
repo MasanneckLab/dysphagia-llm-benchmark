@@ -1,0 +1,49 @@
+[
+  {
+    "analysis": "ordinal_cluster_robust",
+    "n_responses": 352,
+    "n_topic_pairs": 44,
+    "guideline_adjusted": true,
+    "excluded_separated_guideline_ids": [
+      5
+    ],
+    "optimizer_converged": true,
+    "score_max": 1.2729542617469756e-06,
+    "information_eigenvalues": [
+      2.844816257801753,
+      3.5475733067677244,
+      7.654632459733196,
+      10.746206960172032,
+      17.653247265426394,
+      20.605219766383755,
+      21.00359074692114,
+      22.28104880666582,
+      30.816939591470334,
+      41.49619491818437,
+      453.77664425939116
+    ],
+    "information_condition": 159.51000104661554,
+    "release_gate_passed": true
+  },
+  {
+    "analysis": "ordinal_cluster_robust_without_guideline",
+    "n_responses": 360,
+    "n_topic_pairs": 45,
+    "guideline_adjusted": false,
+    "excluded_separated_guideline_ids": [],
+    "optimizer_converged": true,
+    "score_max": 2.6183615786568276e-07,
+    "information_eigenvalues": [
+      3.5939884555782458,
+      8.088551062630323,
+      16.93228543212822,
+      20.857436054545595,
+      22.59057867348492,
+      26.693269388419335,
+      38.81428772158785,
+      443.43432564616046
+    ],
+    "information_condition": 123.38223428567478,
+    "release_gate_passed": true
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "reference_split_restored_from_template",
+    "system": "Sonar",
+    "item_id": 2,
+    "source_excel_row": 7,
+    "note": "D7/D8 reference fragments join exactly to template and both complete OpenEvidence/GPT references. Restored only in derived data; raw fragments retained."
+  },
+  {
+    "kind": "reference_split_restored_from_template",
+    "system": "Sonar-Reasoning-Pro",
+    "item_id": 2,
+    "source_excel_row": 8,
+    "note": "D7/D8 reference fragments join exactly to template and both complete OpenEvidence/GPT references. Restored only in derived data; raw fragments retained."
+  },
+  {
+    "kind": "reference_trailing_character_restored_from_template",
+    "system": "Sonar",
+    "item_id": 45,
+    "note": "Removed a stray terminal a only in the derived reference; original template and the other three systems agree."
+  },
+  {
+    "kind": "documented_rating_typo",
+    "system": "Sonar",
+    "item_id": 51,
+    "note": "corect -> Correct; both independent raters already Correct."
+  },
+  {
+    "kind": "inclusive_high_evidence_definition",
+    "system": "Open Evidence",
+    "item_id": 38,
+    "note": "Guideline=yes, raw high-level=no; inclusive endpoint is OR, not a source-cell correction."
+  }
+]

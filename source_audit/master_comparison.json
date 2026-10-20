@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-07",
+  "master_workbook": "20260915_Supplementary_Material_3.xlsx",
+  "master_sha256": "971d7efb534eb9abbfcdea2e3e05387ccce39f7f1e3286887e939ee7183cff71",
+  "matched_responses": 360,
+  "alignment": "Exact normalized question text and model identifier; all keys unique.",
+  "comparison_read_mode": "Excel cached values, with whitespace normalized for comparison. Original legacy formulas retained separately, not executed or exported into CSV cells.",
+  "legacy_formula_cells": [
+    {
+      "workbook": "Questions_04.05.2026_perplexity_sonar_reasoning_final.xlsx",
+      "cell": "E7",
+      "formula": "=+++M7+E6+E5"
+    }
+  ],
+  "unchanged_fields": [
+    "Category",
+    "Question number",
+    "Question",
+    "Guideline",
+    "model",
+    "Answer",
+    "Required aspects covered",
+    "Required aspects covered.1",
+    "Final Rating"
+  ],
+  "changed_cell_counts": {
+    "Key statement based on high-level evidence.1": 4,
+    "Sample Answer According to Guideline": 2,
+    "Key statement fully guideline-referenced": 2,
+    "Key statement based on high-level evidence": 2,
+    "Key statement fully guideline-referenced.1": 2
+  },
+  "changed_cells_excluding_capitalization": 10,
+  "correctness_and_initial_ratings_unchanged": true,
+  "CH_source_consensus_unchanged_on_correct_answers": true,
+  "guideline_catalogue_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "safety_column": "One explicit no; 359 blanks. Blank is not interpreted as no.",
+  "reference_defects": [
+    {
+      "master_cell": "Final questions!D7",
+      "system": "Sonar",
+      "item_id": 2,
+      "problem": "Reference split: prefix in D7 and suffix in D8.",
+      "derived_repair_evidence": "D7 plus D8 matches full template and both complete OpenEvidence/GPT master references."
+    },
+    {
+      "master_cell": "Final questions!D8",
+      "system": "Sonar-Reasoning-Pro",
+      "item_id": 2,
+      "problem": "Reference split: suffix in D8 and prefix in D7.",
+      "derived_repair_evidence": "D7 plus D8 matches full template and both complete OpenEvidence/GPT master references."
+    },
+    {
+      "master_cell": "Final questions!D93",
+      "system": "Sonar",
+      "item_id": 45,
+      "problem": "Stray terminal a retained from the legacy source.",
+      "derived_repair_evidence": "Template reference and all three other current-master model records match."
+    }
+  ],
+  "legacy_sonar_noncorrect_annotation": "Instrumental Q15 Case, item_id 59: four source annotations cleared in current master; excluded from conditional endpoints in both revisions.",
+  "BL_updates": "OpenEvidence: clinical Q9 Knowledge high-level no to yes; instrumental Q5 Knowledge missing entries to yes/no; therapy Q9 Knowledge ni to no. Adopted from master, not inferred.",
+  "original_submitted_file_identity": "Current S3 supplied by author and audited. Identity with any earlier journal-uploaded binary is not established."
+}
